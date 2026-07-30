@@ -34,7 +34,9 @@ body {
   height: 100%;
   overflow: hidden;
   overscroll-behavior: none;
-  background:
+  color-scheme: dark;
+  background-color: var(--void-black);
+  background-image:
     radial-gradient(ellipse at 50% 50%, var(--void-black-deep) 0%, var(--void-black) 72%);
   touch-action: none;
   -webkit-user-select: none;
