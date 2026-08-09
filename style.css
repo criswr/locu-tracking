@@ -136,8 +136,16 @@ body {
   opacity: 1;
 }
 
-@media (max-width: 640px) {
-  .hud--br { display: none; }
+.hud__link {
+  color: var(--signal-cyan);
+  text-decoration: none;
+  pointer-events: auto;
+  transition: opacity 0.3s ease;
+}
+
+.hud__link:hover,
+.hud__link:focus-visible {
+  opacity: 1;
 }
 
 @media (max-width: 480px) {
